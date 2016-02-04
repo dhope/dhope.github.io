@@ -3,14 +3,14 @@ title: David Hope
 email: dhope@sfu.ca
 url: https://dhope.github.io
 description: "PhD Candidate working on using migratory decisions in sandpipers to assess population status"
+icon:
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
   links: '#219ab3'
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars0.githubusercontent.com/u/3454106?v=3&s=460
+
 
 # Footer settings
 footer: David Hope
@@ -23,17 +23,20 @@ social:
  #   url: http://stackoverflow.com/questions/tagged/jekyll
   - title: github
     url: https://github.com/dhope
+    title: 500px
+    url: https://500px.com/dhope
+    title: instagram
+    url: https://www.instagram.com/hopeioslo/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-#baseurl: "/SFU_prog_group"
+# baseurl: "/SFU_prog_group"
 
 
 # Build settings
-markdown: redcarpet
-#kramdown
+markdown: kramdown
 #permalink: pretty
 permalink: /:title/
 
