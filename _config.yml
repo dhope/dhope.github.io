@@ -1,31 +1,49 @@
 # Site settings
-title: Grayscale
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: "/grayscale-theme"
+title: David Hope
+email: dhope@sfu.ca
+url: https://dhope.github.io
+description: "Shorebird Biologist, Environment and Climate Change Canada"
+icon:
 
-# Color settings
+# Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
   links: '#219ab3'
 
+
+
 # Footer settings
-footer: Your Website
+footer: David Hope
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/SBootstrap
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: https://twitter.com/hopethoughts
+ # - title: stack-overflow
+ #   url: http://stackoverflow.com/questions/tagged/jekyll
   - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://github.com/dhope
+#    title: 500px
+#    url: https://500px.com/dhope
+#    title: instagram
+#    url: https://www.instagram.com/hopeioslo/
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+# baseurl: "/SFU_prog_group"
+
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+#permalink: pretty
+permalink: /:title/
+
+# Exclude these files from your production _site
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - CNAME
