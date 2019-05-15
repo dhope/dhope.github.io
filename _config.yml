@@ -2,7 +2,7 @@
 title: David Hope
 email: mail@davidhope.ca
 url: https://dhope.github.io
-description: "Shorebird Biologist, Environment and Climate Change Canada"
+description: "Quantitative Wildlife Biologist, Environment and Climate Change Canada"
 icon:
 
 # Color settings (hex-codes without the leading hash-tag)
@@ -23,6 +23,8 @@ social:
  #   url: http://stackoverflow.com/questions/tagged/jekyll
   - title: github
     url: https://github.com/dhope
+  - title: linkedin
+    url: https://www.linkedin.com/in/d-hope
 #    title: 500px
 #    url: https://500px.com/dhope
 #    title: instagram
